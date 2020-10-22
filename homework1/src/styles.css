@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+}
+#main-header {
+  color: purple;
+}
+#books-header{
+  color: orange;
+}
+#movies-header{
+  color: green;
+}
+#books .books-content th, .books-content td {
+
+  border: 1px dashed orange;
+  border-collapse: separate;
+
+}
+#movies .movies-content, th, .movies-content td {
+  border: 1px solid green;
+  border-collapse: collapse;
+}
